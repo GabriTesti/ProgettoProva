@@ -23,7 +23,12 @@ namespace Attività_4GIT
         public MainWindow()
         {
             InitializeComponent();
-            lblstampa.Content="Hello World";
+           
+        }
+
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            lblstampa.Content = "Hello World";
         }
     }
 }
